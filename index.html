@@ -65,7 +65,7 @@
 <!--/.Navbar -->
 <!-- <hr class="container" style="border: 1px solid #FF6F00;"> -->
 <!--Carousel Wrapper-->
-<div id="carousel-example-2" class=" container carousel slide carousel-fade" data-ride="carousel">
+<div id="carousel-example-2" class=" container carousel slide carousel-fade position" data-ride="carousel">
   <!--Slides-->
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
@@ -112,7 +112,7 @@
 <div class="container"> 
   <h2 class="section-heading"><b>VIDEOS</b></h2>
   <hr style="border: 1px solid #FF6F00; margin-top: -7px;">
-  <div class="container">
+  <div class="container position">
     <!-- <img src="img/svg/next.svg" class="svg-dimension"> -->
     <a class="svg-dimension">More</a>
   </div>
@@ -136,21 +136,21 @@
         <!--First slide-->
         <div class="carousel-item active">
 
-          <div class="col-md-4">
+          <div class="col-md-4 card-margin">
             <div class="card-style"></div>
             <div class="card-caption-style">
                 <h4>Service Attack</h4>
             </div>
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 card-margin">
             <div class="card-style"></div> 
               <div class="card-caption-style">
                 <h4>What!!! A SMASH</h4>
             </div>     
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 card-margin">
             <div class="card-style"></div>  
             <div class="card-caption-style">
               <h4>AMAZING DIG BY ROCK</h4>
@@ -163,21 +163,21 @@
         <!--Second slide-->
         <div class="carousel-item">
 
-          <div class="col-md-4">
+          <div class="col-md-4 card-margin">
             <div class="card-style"></div>  
             <div class="card-caption-style">
               <h4>AMAZING DIG BY ROCK</h4>
             </div>      
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 card-margin">
             <div class="card-style"></div>  
             <div class="card-caption-style">
               <h4>AMAZING DIG BY ROCK</h4>
             </div>      
           </div>
 
-          <div class="col-md-4">
+          <div class="col-md-4 card-margin">
             <div class="card-style"></div>  
             <div class="card-caption-style">
               <h4>AMAZING DIG BY ROCK</h4>
@@ -194,7 +194,7 @@
 <div class="container">
   <h2 style="color: #FF6F00;"><b>UP-COMMING EVENTS</b></h2>
   <hr style="border: 1px solid #FF6F00; margin-top: -7px;">
-  <dv class="container row">
+  <dv class="container row position">
     <div class="col-md-2" style="border: 0px solid grey;width: 200px; height: 200px;">
       <p class="event-date"><b style="font-size: 30px;">20</b> Sept</p>
       <p class="event-day">Sunday</p>
@@ -202,8 +202,16 @@
     <div class="col-md-3" style="border: 3px solid grey;width: 200px; height: 200px;">
       
     </div>
-    <div class="col-md-6" style="border: 0px solid grey;width: 200px; height: 200px;">
-      <p class="event">Event Name</p>
+    <div class="col-md-5" style="border: 0px solid grey;width: 200px; height: 200px;">
+      <div class="event-dis">
+        <p class="event-name">CLASH OF SMASH</p>
+        <p class=" event-pos venue">Venue - SMS Stadium</p>
+        <pre id="demo" class="timer event-pos"></pre>
+        <button type="button" class="btn btn-primary button-sty">Register</button>
+        <img src="img/svg/share.svg" class="share-svg">
+        <br>
+        <button type="button" class="btn btn-primary button-sty">Details</button>
+      </div>
     </div>
   </dv>
 </div>
@@ -212,7 +220,7 @@
 <div class="container">
   <h2 class="section-heading"><b>PHOTOES</b></h2>
   <hr style="border: 1px solid #FF6F00; margin-top: -7px;">
-  <div class="container">
+  <div class="container position">
     <!-- <img src="img/svg/next.svg" class="svg-dimension"> -->
     <a class="svg-dimension">More</a>
   </div>
@@ -237,7 +245,7 @@
     <!--First slide-->
     <div class="carousel-item active">
 
-      <div class="col-md-4">
+      <div class="col-md-4 card-margin">
         <div class="card-style">
     
         </div>
@@ -246,7 +254,7 @@
         </div>
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 card-margin">
         <div class="card-style">
    
        </div> 
@@ -255,7 +263,7 @@
        </div>     
      </div>
 
-     <div class="col-md-4">
+     <div class="col-md-4 card-margin">
       <div class="card-style">
  
      </div>  
@@ -270,7 +278,7 @@
     <!--Second slide-->
     <div class="carousel-item">
 
-      <div class="col-md-4">
+      <div class="col-md-4 card-margin">
         <div class="card-style">
 
         </div>  
@@ -279,7 +287,7 @@
         </div>      
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 card-margin">
         <div class="card-style">
 
         </div>  
@@ -288,7 +296,7 @@
         </div>      
       </div>
 
-      <div class="col-md-4">
+      <div class="col-md-4 card-margin">
         <div class="card-style">
 
         </div>  
@@ -309,13 +317,65 @@
   <h2 class="section-heading"><b>RULES TO FOLLOW</b></h2>
   <hr style="border: 1px solid #FF6F00; margin-top: -7px;">
   <div class="container">
-    <div class="rule-to-follow">
+    <div class="rule-to-follow position">
         
     </div>
   </div>
 </div>
+<br><br>
+<!-- Sponser Section -->
+<div class="container">
+  <h2 class="section-heading"><b>OUR SPONSERS</b></h2>
+  <hr style="border: 1px solid #FF6F00; margin-top: -7px;">
+  <div class="container row">
+    <div class="col-md-3">
+      <img src="images/monster-energy.png" class="img-size">
+    </div>
+    <div class="col-md-3">
+      <img src="images/macdonald.jpg" class="img-size">
+    </div>
+    <div class="col-md-3">
+      <img src="images/monster-energy.png" class="img-size">
+    </div>
+    <div class="col-md-3">
+      <img src="images/macdonald.jpg" class="img-size">
+    </div>
+  </div>
+</div>
+<!--/.Carousel Wrapper-->
+  </div>
+</div>
   <!-- End your project here-->
-
+  <script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Dec 31, 2020 15:37:25").getTime();
+    
+    // Update the count down every 1 second
+    var x = setInterval(function() {
+    
+      // Get today's date and time
+      var now = new Date().getTime();
+        
+      // Find the distance between now and the count down date
+      var distance = countDownDate - now;
+        
+      // Time calculations for days, hours, minutes and seconds
+      var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+        
+      // Output the result in an element with id="demo"
+      document.getElementById("demo").innerHTML = days + " Days | " + hours + " Hrs | "
+      + minutes + " Min | " + seconds + " Sec  ";
+        
+      // If the count down is over, write some text 
+      if (distance < 0) {
+        clearInterval(x);
+        document.getElementById("demo").innerHTML = "EXPIRED";
+      }
+    }, 1000);
+    </script>
   <!-- jQuery -->
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <!-- Bootstrap tooltips -->

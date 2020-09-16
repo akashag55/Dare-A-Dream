@@ -1,3 +1,6 @@
+.position{
+    margin-top: 3em;
+}
 .section-heading{
     font-size: 22px;
     padding: 0.3em;
@@ -8,14 +11,17 @@
 .card-style{
     border: 2px solid grey;
     border-bottom: 1px solid gray;
-    width: 80%;
+    width: 100%;
     height: 200px;
     /* margin: 30px; */
+}
+.card-margin{
+    margin-bottom: 10px;
 }
 .card-caption-style{
     border: 2px solid grey;
     border-top: none;
-    width: 80%;
+    width: 100%;
     height: 50px;
     padding-top: 6px;
     text-align: center;
@@ -26,7 +32,6 @@
     height: 25px;
     float: right;
     font-size: 18px;
-
 }
 .card-ph{
     background-color: #0F0F0F;
@@ -53,3 +58,46 @@
     padding: 0 3em 1em 1em;
     float: right;
 }
+.event-dis{
+    padding: 1em 2em 0 2em;
+}
+.event-name{
+    font-size: 27px;
+    font-weight: bold;
+    color: #B00107;
+
+}
+  .count-li {
+    display: inline-block;
+    font-size: 15px;
+    /* list-style-type: none; */
+    /* padding: 1em; */
+    text-transform: uppercase;
+  }
+  .share-svg{
+    width: 50px;
+    height: 25px;
+  }
+  .count-li span {
+    display: block;
+    font-size: 18px;
+  }
+  .timer{
+      margin: 5px;
+      font-size: 15px;
+  }
+  .venue{
+      font-weight: bolder;
+  }
+  .event-pos{
+      margin-top: -15px;
+  }
+  .button-sty{
+      width: 150px;
+      height: 20%;
+  }
+  .img-size{
+      width: 100%;
+      height: 100%;
+      padding: 4.5em;
+  }
