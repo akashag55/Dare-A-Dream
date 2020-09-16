@@ -22,9 +22,11 @@
     font-weight: bold;
 }
 .svg-dimension{
-    width: 25px;
+    width: 50px;
     height: 25px;
     float: right;
+    font-size: 18px;
+
 }
 .card-ph{
     background-color: #0F0F0F;
@@ -33,4 +35,21 @@
 .rule-to-follow{
     border: 2px solid grey;
     height: 500px;
+}
+.dimension{
+    width: 25px;
+    height: 25px;
+    margin: 8px;
+}
+.event-date{
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1em 1em 0 1em;
+}
+.event-day{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: -20px;
+    padding: 0 3em 1em 1em;
+    float: right;
 }
