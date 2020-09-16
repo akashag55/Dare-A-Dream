@@ -1,0 +1,36 @@
+.section-heading{
+    font-size: 22px;
+    padding: 0.3em;
+    color: #FF6F00;
+    background-color: #15223B;
+
+}
+.card-style{
+    border: 2px solid grey;
+    border-bottom: 1px solid gray;
+    width: 80%;
+    height: 200px;
+    /* margin: 30px; */
+}
+.card-caption-style{
+    border: 2px solid grey;
+    border-top: none;
+    width: 80%;
+    height: 50px;
+    padding-top: 6px;
+    text-align: center;
+    font-weight: bold;
+}
+.svg-dimension{
+    width: 25px;
+    height: 25px;
+    float: right;
+}
+.card-ph{
+    background-color: #0F0F0F;
+    color: white;
+}
+.rule-to-follow{
+    border: 2px solid grey;
+    height: 500px;
+}
